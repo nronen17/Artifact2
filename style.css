@@ -1,60 +1,66 @@
-
-html, body{
-    height: 100%;
-    margin: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 body {
-    background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
-   }
+  background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+}
 .row {
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 10%;
 }
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
-.white ,.black{
-    border: 1px solid black;
-    text-align: center;
-    width: 10%;
-    height: 90px;
-    float: left;
-    
-   }
-    
-   .black{
-    background-color:#787878;
-   }
-   .white {
-       background-color: white;
-   }
-   footer {
-    text-align: center;
-    background-color:lightyellow;
-   }
-   #container {
-    margin-top:10%;
-    margin-left:10%;
-    margin-right:-5%;
-    margin-bottom:12%;
-   }
-   #title {
-    position:fixed;
-    top:0px;
-    left:0px; 
-    padding:10px;
-    margin:0px;
-    width:100%;
-    background-color:lightyellow;
-    text-align:center; 
-    z-index:10;
-    font-family: 'JustLettersMedium'; 
-    font-weight: normal; 
-    font-style: normal; 
-    font-size:36px;
-   }
-   .imag {
-    margin-left: 5px;
-    margin-top:20%;
-    }
+.white,
+.black {
+  border: 1px solid black;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.black {
+  background-color: #787878;
+}
+.white {
+  background-color: white;
+}
+footer {
+  text-align: center;
+  background-color: lightyellow;
+}
+#container {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: -5%;
+  height: 100%;
+}
+#title {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  background-color: lightyellow;
+  text-align: center;
+  z-index: 10;
+  font-family: "JustLettersMedium";
+  src: url("/assets/fonts/just-letters/ef358ebfb6c10d16ecbd6a0b3d5bf008/a57270ce20fe4b21675a3d18a5ed2b62/JustLettersMedium.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;
+}
+.ftr {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
