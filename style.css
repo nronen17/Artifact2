@@ -64,3 +64,9 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+@font-face {
+  font-family: "gizagizaRegular";
+  src: url("gizagiza.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
