@@ -6,6 +6,12 @@ body {
 body {
   background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
+@font-face {
+    font-family: 'gizagizaRegular';
+        src: url('./gizagiza.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .row {
   position: relative;
   margin-left: 10%;
@@ -43,7 +49,9 @@ footer {
   margin-right: -5%;
   height: 100%;
 }
-#title, .title {
+
+
+#title, .title{
   position: fixed;
   top: 0px;
   left: 0px;
